@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>廖素珍的個人網站</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #fdf6f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f7b267;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+    }
+    img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>嗨，我是廖素珍</h1>
+    <p>彰師大電機系｜熱愛理工與教學</p>
+  </header>
+
+  <main>
+    <img src="https://via.placeholder.com/150" alt="大頭照">
+    <h2>關於我</h2>
+    <p>目前就讀彰師大電機系，喜歡研究 Arduino、電子與程式設計。高中時期曾獲化學校牌前5%，在分科測驗數學甲拿下44/45的成績。</p>
+
+    <h2>經歷</h2>
+    <ul>
+      <li>國中自然科家教與補習班助教</li>
+      <li>高中常幫同學解題，具有教學熱情與耐心</li>
+      <li>正在學習使用 74HC595 控制七段顯示器</li>
+    </ul>
+
+    <h2>聯絡我</h2>
+    <p>Email: your_email@example.com</p>
+    <p>GitHub: <a href="https://github.com/你的帳號" target="_blank">github.com/你的帳號</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 廖素珍. All rights reserved.</p>
+  </footer>
+</body>
+</html>
